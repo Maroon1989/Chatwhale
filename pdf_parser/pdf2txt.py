@@ -183,8 +183,8 @@ def process_file(file_path):
 
 folder_path = 'data'
 file_paths = glob.glob(f'{folder_path}/*')
-# print(file_paths)
+print(file_paths)
 file_paths = sorted(file_paths, reverse=True)
 with Pool(processes=15) as pool:
-    results = pool.map(process_file, file_paths)
+     results = pool.map(process_file, file_paths)
 
