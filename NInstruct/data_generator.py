@@ -2,13 +2,22 @@ import pandas as pd
 import numpy as np 
 import json
 import pickle
-stock_list = pd.read_csv(r'D:\金融软工\algorithm\后端\月线行情.csv')
-stock_list = stock_list['ts_code'].unique().tolist()
-for i in stock_list:
+from tqdm import tqdm
+import os
+stock_list = pd.read_csv(r'D:\一些比赛\citi2024\Chatwhale\NInstruct\data\AB股代码.xlsx')
+# stock_list = stock_list['证券代码'].unique().tolist()
+path = r'Chatwhale\NInstruct\dataset'
+for i in tqdm(range(len(stock_list['证券代码']))):
     data = {}
-    data['subject'] = i
-    data['object']
-    data['finance'] = []
-    data['qualification'] = None
-    data['logo'] = None
-    data['']
+    data['id'] = i
+    data['security_code'] = stock_list['证券代码'][i]
+    data['stock_name'] = stock_list['证券名称'][i]
+    data['stock_code'] = stock_list['股票代码'][i]
+    filename = str(data['stock_code'])+'.pkl'
+    pickle_path = os.join(path,filename)
+    with open(pickle_path,'wb') as file:
+        pickle.dump(data,file,protocol=pickle.DEFAULT_PROTOCOL)
+
+    # data['qualification'] = None
+    # data['logo'] = None
+    # data['']
