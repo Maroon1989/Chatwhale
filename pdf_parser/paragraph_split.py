@@ -25,13 +25,18 @@ class PDFDocumentParser:
         current_sub_section = None
         for line in section_lines:
             match1 = re.match(r'^[一二三四五六七八九十]、', line)
-            if match1:
+            # match2 = re.match(r'^\d+(\.\d+)+ .+$',line)
+            match2 = re.match(r'^\d+(\.\d+)+\s.+$',line)
+            # print(line)
+            # match3 = re.match(r'^[1-9][0-9]{0,8}、', line)
+            if match1 or match2 :
+                print(1)
                 if current_sub_section:
                     document_list.append(self.create_document(text_content=''.join(sub_section_text), chapter=chapter))
                 current_sub_section = line
-                sub_section_text = [line + '\n']
+                sub_section_text = [line+ '\n']
             elif current_sub_section:
-                sub_section_text.append(line + '\n')
+                sub_section_text.append(line+ '\n')
         if current_sub_section:
             document_list.append(self.create_document(text_content=''.join(sub_section_text), chapter=chapter))
         return document_list
@@ -48,27 +53,36 @@ class PDFDocumentParser:
                 text = page.extract_text()
                 text_lines = text.split('\n')
                 for line in text_lines:
-                    match = re.match(r'^第[一二三四五六七八九十]+节(?!.*\.{6,})', line)
-                    if match:
+                    match1 = re.match(r'^第[一二三四五六七八九十]+节|第[1-9][0-9]{0,8}节(?!.*\.{6,})', line)
+                    match2 = re.match(r'^(第[一二三四五六七八九十]+章|第[1-9][0-9]{0,8}章)(?!.*\.{6,})', line)
+                    # match3 = re.match(r'^[一二三四五六七八九十]、', line)
+                    # match4 = re.match(r'^[1-9][0-9]{0,8}、', line)
+                    if match1 or match2 :
+                        print(line)
                         if current_section:
+                            # print(1)
                             section_text = ''.join(section_text)
                             self.all_chapter_documents.extend(self.create_document_list(section_text))
                         current_section = line
-                        section_text = [line + '\n']
+                        section_text = [line+'\n']
                     elif current_section:
-                        section_text.append(line + '\n')
+                        section_text.append(line)
                 print(self.file_name + ' ' + str(i+1) + '/' + str(page_num) + ' 页读写完成', end='\r')
             if current_section:
                 section_text = ''.join(section_text)
                 self.all_chapter_documents.extend(self.create_document_list(section_text))
+        # print(self.all_chapter_documents)
         return self.all_chapter_documents
 
 # 使用示例
-parser = PDFDocumentParser('pdf_parser\data\茅台.pdf')
+parser = PDFDocumentParser(r'Chatwhale\pdf_parser\paddle_ocr\data_process\data\平安银行：2022年年度报告 (1).PDF')
+# parser = PDFDocumentParser(r'D:\一些比赛\citi2024\Chatwhale\pdf_parser\data\茅台.pdf')
 documents = parser.parse_pdf()
 #
-print('茅台年报Document实例列表如下\n')
-for doc in documents[:5]:
+# print('茅台年报Document实例列表如下\n')
+for doc in documents[:10]:
     print(doc.metadata)
     print(doc.page_content)
     print('-----------------------------')
+
+print(len(documents))
