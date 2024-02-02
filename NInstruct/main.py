@@ -4,7 +4,7 @@ import glob
 import json
 from pathlib import Path
 from typing import List
-from utils import download_img, get_class_from_module, save_results, get_command_line_parser, pprint
+from utils import get_class_from_module, save_results, get_command_line_parser, pprint
 from inferencer import EXP_STR2CLASS_NAME
 from configs import DATA_PATHS
 
@@ -19,19 +19,20 @@ class GenerateInstances():
         self.inferencer = inferencer_class(types=infer_strs)
 
     def run(self, **fit_kwargs) -> None:
-        results, results_data_id2file_name = [], {}
+        results, types,results_data_id2file_name = [], [],{}
         files = glob.glob(os.path.join(DATA_PATHS[self.exp_str], "*.pkl"))
         for pkl_file in files:
             cur = self.inferencer.load(pkl_file)
             if not len(cur):
                 continue
 
-            cur = self.inferencer.fit(cur, **fit_kwargs)
-
+            cur,typs = self.inferencer.fit(cur, **fit_kwargs)
+            # print(typs)
             results_data_id2file_name.update({i['id']: pkl_file for i in cur})
             results.extend(cur)
-
-        save_results(results, results_data_id2file_name)
+            types.extend(typs)
+        print(types)
+        save_results(results, types,results_data_id2file_name)
 
 def main():
     args, _ = get_command_line_parser()

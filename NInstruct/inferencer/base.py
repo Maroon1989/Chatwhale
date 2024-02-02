@@ -6,8 +6,9 @@ class BaseInferencer():
     def __init__(self,
                  types: List[str]) -> None:
         self.inference_funcs = {
-            i: STRATEGIES[i] for i in types
+            i: [STRATEGIES[i]['func'],STRATEGIES[i]['type']] for i in types
             }
+        # self.type = 
 
     def load(self,
              file_name: str,
@@ -18,6 +19,11 @@ class BaseInferencer():
             data: Dict[str, Any],
             **kwargs) -> List[Any]:
         results = []
+        types = []
         for cur_stra in self.inference_funcs.keys():
-            results.extend(self.inference_funcs[cur_stra](data, **kwargs))
-        return results
+            l = self.inference_funcs[cur_stra][0](data, **kwargs)
+            results.extend(l)
+            types.extend([self.inference_funcs[cur_stra][1]]*len(l))
+            # print(types)
+            # print(self.inference_funcs[cur_stra][1])
+        return results,types
