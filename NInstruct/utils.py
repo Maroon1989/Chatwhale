@@ -118,6 +118,7 @@ def save_results(data, types,data_id2file_name) -> None:
     # 如果要实现追加，把下面的data改成existing_data，并消除上面六行的注释即可。
     data_classification,data_keywords,data_nl2sql = [],[],[]
     for i in range(len(data)):
+        # print(types[i])
         if types[i] == 'classification':
             data_classification.append(data[i])
         if types[i] == 'keywords':
@@ -151,7 +152,7 @@ def save_results(data, types,data_id2file_name) -> None:
     except FileNotFoundError:
         existing_data = []
     existing_data.extend(data_nl2sql)
-    with open(os.path.join(JSON_SAVE_PATH_CLASSIFICATION, 'data.json'), 'w', encoding='utf-8') as json_file:
+    with open(os.path.join(JSON_SAVE_PATH_NL2SQL, 'data.json'), 'w', encoding='utf-8') as json_file:
         json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
     # 如果要实现追加，把w修改成a模式即可。
     # with open(os.path.join(JSON_SAVE_PATH, 'map.csv'), 'w', encoding='utf-8') as csv_file:

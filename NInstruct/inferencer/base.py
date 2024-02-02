@@ -21,6 +21,9 @@ class BaseInferencer():
         results = []
         types = []
         for cur_stra in self.inference_funcs.keys():
-            results.extend(self.inference_funcs[cur_stra][0](data, **kwargs))
-            types.extend(self.inference_funcs[cur_stra][1](data, **kwargs))
+            l = self.inference_funcs[cur_stra][0](data, **kwargs)
+            results.extend(l)
+            types.extend([self.inference_funcs[cur_stra][1]]*len(l))
+            # print(types)
+            # print(self.inference_funcs[cur_stra][1])
         return results,types

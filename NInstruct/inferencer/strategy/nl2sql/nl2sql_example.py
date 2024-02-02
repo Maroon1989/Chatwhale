@@ -25,6 +25,8 @@ def nl2sql_example(
     for i in data.keys():
         if i == 'id':
             continue
+        if i=='stock_code':
+            data[i] = str(int(data[i])).zfill(6)
         results.append(
             make_data_dict(
                 cur_id=str(ID_COUNTER),

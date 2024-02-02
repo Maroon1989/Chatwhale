@@ -1,0 +1,392 @@
+[
+    {
+        "id": "0000000006",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000007",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司平安银行十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000008",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000015",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000016",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司万科A十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000017",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000024",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000025",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司国华网安十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000026",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000033",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000034",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司ST星源十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000035",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000042",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000043",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深振业A十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000044",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000051",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000052",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司*ST全新十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000053",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000060",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000061",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司神州高铁十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000062",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000069",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000070",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司中国宝安十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000071",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000078",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000079",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司美丽生态十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000080",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000087",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000088",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深物业A十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000089",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    }
+]

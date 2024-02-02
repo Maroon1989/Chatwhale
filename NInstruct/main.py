@@ -27,10 +27,11 @@ class GenerateInstances():
                 continue
 
             cur,typs = self.inferencer.fit(cur, **fit_kwargs)
-
+            # print(typs)
             results_data_id2file_name.update({i['id']: pkl_file for i in cur})
             results.extend(cur)
             types.extend(typs)
+        print(types)
         save_results(results, types,results_data_id2file_name)
 
 def main():

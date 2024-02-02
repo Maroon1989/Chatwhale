@@ -23,7 +23,7 @@ class StockInferencer(BaseInferencer):
         }
 
         # NOTE: 完善类型检查
-        assert isinstance(cur_data['title'], str)
+        # assert isinstance(cur_data['title'], str)
         assert isinstance(cur_data['id'],int)
         assert isinstance(cur_data['stock_name'],str)
         assert isinstance(cur_data['stock_code'],np.float64)
