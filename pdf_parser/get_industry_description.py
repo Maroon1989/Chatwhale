@@ -1,8 +1,9 @@
 # 导入库
 import pdfplumber
 import re
+from tqdm import tqdm
 # 设置文件名
-file_name = 'pdf_parser\data\茅台'
+file_name = r'G:\zhongyunhua\大学\大三寒假\花旗杯\年报Example'
 
 # 打开 PDF 文件
 p = pdfplumber.open(file_name + ".pdf")
@@ -12,7 +13,7 @@ page_num = len(p.pages)
 
 # with-open-as 进行 PDF -> TXT
 with pdfplumber.open(file_name + ".pdf") as pdf:
-    for i in range(page_num):
+    for i in tqdm(range(page_num)):
         
         # 设置当前页
         page = pdf.pages[i]

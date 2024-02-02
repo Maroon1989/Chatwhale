@@ -75,7 +75,7 @@ class PDFDocumentParser:
         return self.all_chapter_documents
 
 # 使用示例
-parser = PDFDocumentParser(r'Chatwhale\pdf_parser\paddle_ocr\data_process\data\平安银行：2022年年度报告 (1).PDF')
+parser = PDFDocumentParser(r'G:\zhongyunhua\大学\大三寒假\花旗杯\Chatwhale\pdf_parser\data\宁德时代.pdf')
 # parser = PDFDocumentParser(r'D:\一些比赛\citi2024\Chatwhale\pdf_parser\data\茅台.pdf')
 documents = parser.parse_pdf()
 #
