@@ -26,7 +26,7 @@
 
 1. 打开inferencer，可以发现结构如下所示：
 
-   ![image-20240204224326447](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240204224326447.png)
+   ![image-20240204224326447](https://github.com/Maroon1989/Chatwhale/blob/main/NInstruct/img_for_md/1.png)
 
    - strategy：用于生成问题的文件夹，包含classification（问题分类）、keywords（关键词提取）、nl2sql（sql语句生成）三个部分，已经为大家写好了example可供参考。
 
@@ -36,11 +36,11 @@
 
    - 如下所示，定义函数的名称（名称与文件名最好一致，方便后续统一），同时在cur_conversations放入想放入的问题即可。针对目标公司询问的问题，需要遍历data中的证券代码、名称、股票代码等字段保证完整性，也可根据自己需求进行填充与问题角度的丰富。
 
-     ![image-20240204225349904](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240204225349904.png)
+     ![image-20240204225349904](https://github.com/Maroon1989/Chatwhale/blob/main/NInstruct/img_for_md/2.png)
 
    - strategy修改好后，进入strategy文件夹下的`__ init __.py`进行修改：
 
-     ![image-20240204225723409](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240204225723409.png)
+     ![image-20240204225723409](https://github.com/Maroon1989/Chatwhale/blob/main/NInstruct/img_for_md/3.png)
 
      首先仿照example，import刚刚写好的函数，并放入STRATEGIES的字典中，请保证格式如下：
 
@@ -58,7 +58,7 @@
 
      在利用data_generator.py加载数据后（不建议加载太多，可以加载10条左右调试一下即可，同时dataset中已经有10条数据，可以不自己加载），在`run.sh`中进行修改：
 
-     ![image-20240204230809883](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20240204230809883.png)
+     ![image-20240204230809883](https://github.com/Maroon1989/Chatwhale/blob/main/NInstruct/img_for_md/4.png)
 
      如上是一个parser，将--infer后面的名称替换为自己刚刚写好的`strategy_name`即可，然后在文件夹中打开bash，执行：
 
