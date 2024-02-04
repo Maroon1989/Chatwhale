@@ -4,7 +4,7 @@ import json
 import pickle
 from tqdm import tqdm
 import os
-stock_list = pd.read_excel(r'D:\一些比赛\citi2024\Chatwhale\NInstruct\data\AB股代码.xlsx')
+stock_list = pd.read_excel(r'D:\sth_funny\citi2024\Chatwhale\NInstruct\data\AB股代码.xlsx')
 # stock_list = stock_list['证券代码'].unique().tolist()
 path = r'NInstruct\dataset'
 # for i in tqdm(range(len(stock_list['证券代码']))):
