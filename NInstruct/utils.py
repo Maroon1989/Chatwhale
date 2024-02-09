@@ -127,7 +127,7 @@ def save_results(data, types,data_id2file_name) -> None:
             data_nl2sql.append(data[i])
     ## classification
     try:
-        with open(os.path.join(JSON_SAVE_PATH_CLASSIFICATION,'data.json')) as f:
+        with open(os.path.join(JSON_SAVE_PATH_CLASSIFICATION,'data.json'),'r',encoding='utf-8') as f:
             existing_data = json.load(f)
     except FileNotFoundError:
         existing_data = []
@@ -137,7 +137,7 @@ def save_results(data, types,data_id2file_name) -> None:
 
     ## keywords
     try:
-        with open(os.path.join(JSON_SAVE_PATH_KEYWORDS,'data.json')) as f:
+        with open(os.path.join(JSON_SAVE_PATH_KEYWORDS,'data.json'),encoding='utf-8') as f:
             existing_data = json.load(f)
     except FileNotFoundError:
         existing_data = []
@@ -147,7 +147,7 @@ def save_results(data, types,data_id2file_name) -> None:
 
     ## nl2sql
     try:
-        with open(os.path.join(JSON_SAVE_PATH_NL2SQL,'data.json')) as f:
+        with open(os.path.join(JSON_SAVE_PATH_NL2SQL,'data.json'),encoding='utf-8') as f:
             existing_data = json.load(f)
     except FileNotFoundError:
         existing_data = []
