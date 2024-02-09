@@ -388,5 +388,2345 @@
                 "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
             }
         ]
+    },
+    {
+        "id": "0000000006",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000007",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司平安银行十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000008",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000021",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000022",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司平安银行的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000023",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000024",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000025",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司平安银行的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000026",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000033",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000034",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司万科A十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000035",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000048",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000049",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司万科A的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000050",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000051",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000052",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司万科A的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000053",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000060",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000061",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司国华网安十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000062",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000075",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000076",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司国华网安的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000077",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000078",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000079",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司国华网安的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000080",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000087",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000088",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司ST星源十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000089",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000102",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000103",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司ST星源的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000104",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000105",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000106",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司ST星源的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000107",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000114",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000115",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深振业A十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000116",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000129",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000130",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深振业A的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000131",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000132",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000133",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深振业A的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000134",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000141",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000142",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司*ST全新十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000143",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000156",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000157",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司*ST全新的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000158",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000159",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000160",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司*ST全新的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000161",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000168",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000169",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司神州高铁十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000170",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000183",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000184",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司神州高铁的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000185",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000186",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000187",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司神州高铁的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000188",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000195",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000196",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司中国宝安十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000197",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000210",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000211",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司中国宝安的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000212",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000213",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000214",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司中国宝安的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000215",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000222",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000223",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司美丽生态十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000224",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000237",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000238",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司美丽生态的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000239",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000240",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000241",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司美丽生态的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000242",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000249",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000250",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深物业A十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000251",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000264",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000265",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深物业A的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000266",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000267",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000268",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深物业A的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000269",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东,前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000006",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000007",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司平安银行十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000008",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000021",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000022",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司平安银行的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000023",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000024",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000025",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司平安银行的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000026",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000001的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000033",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000034",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司万科A十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000035",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000048",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000049",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司万科A的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000050",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000051",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000052",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司万科A的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000053",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000002的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000060",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000061",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司国华网安十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000062",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000075",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000076",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司国华网安的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000077",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000078",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000079",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司国华网安的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000080",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000004的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000087",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000088",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司ST星源十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000089",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000102",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000103",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司ST星源的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000104",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000105",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000106",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司ST星源的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000107",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000005的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000114",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000115",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深振业A十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000116",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000129",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000130",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深振业A的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000131",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000132",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000133",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深振业A的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000134",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000006的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000141",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000142",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司*ST全新十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000143",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000156",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000157",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司*ST全新的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000158",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000159",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000160",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司*ST全新的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000161",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000007的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000168",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000169",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司神州高铁十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000170",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000183",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000184",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司神州高铁的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000185",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000186",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000187",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司神州高铁的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000188",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000008的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000195",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000196",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司中国宝安十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000197",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000210",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000211",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司中国宝安的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000212",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000213",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000214",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司中国宝安的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000215",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000009的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000222",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000223",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司美丽生态十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000224",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000237",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000238",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司美丽生态的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000239",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000240",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000241",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司美丽生态的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000242",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000010的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000249",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011.SZ十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000250",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深物业A十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000251",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011十大股东是哪些，他们分别持有公司多少股份?”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000264",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011.SZ的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000265",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深物业A的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000266",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011的向下控股结构是怎样的，是否存在多级控制层次？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 股权性质,层级判断 from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000267",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011.SZ的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000268",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司深物业A的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
+    },
+    {
+        "id": "0000000269",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "请根据以下用户输入，输出sql代码。\n用户输入：“公司000011的主要向下控股公司是哪些，分别持有它们多少股份？”"
+            },
+            {
+                "from": "assistant",
+                "value": "根据用户输入问题，编写sql代码如下：\n```sql\n select 第一大控股股东, 第一大股东持股比率(%),前十大股东持股比例(%) from 股权性质  \n```"
+            }
+        ]
     }
 ]
