@@ -1,6 +1,6 @@
 from flask import Flask,render_template,request,jsonify
 import demo_code
-from demo_code.demo_1 import GLM
+from Chatwhale.glm_demo.demo_code.GLM_set_up import GLM
 import requests
 from chroma_db import get_query
 
@@ -27,10 +27,11 @@ def get_question(user_id,dialog_id):
         'num':dialog_id,
         'question':question,
         'user_id':user_id,
-        'classification':True
+        'classification':True,
+        'query_type':True
     }
     try:
-        response = requests.post(url=url+'/ask',data=data)
+        response = requests.get(url=url+'/ask',data=data)
         if response['classification'] == 'D' or response['classification'] == 'E':
             result = get_query(query=question)
             data = {
@@ -38,11 +39,11 @@ def get_question(user_id,dialog_id):
                     'question':question,
                     'text':result,
                     'user_id':user_id,
-                    'classification':True,#表示问题是否参与分类
+                    'classification':False,#表示问题是否参与分类
                     'query_type':True #表示prompt中是否加入提示
             }
             try:
-                response2 = requests.post(url=url+'/ask',data=data)
+                response2 = requests.get(url=url+'/ask',data=data)
                 return jsonify(
                     {
                         'status':'success',
@@ -99,7 +100,7 @@ def regenerate(user_id,dialog_id):
         'query_type':False
     }
     try:
-        response = requests.post(url=url+'/ask',data=data)
+        response = requests.get(url=url+'/ask',data=data)
         return jsonify({
                 'status':'success',
                 'new_answer':response['answer']
@@ -122,7 +123,7 @@ def topic(user_id,dialog_id):
         'query_type': False
     }
     try:
-        response = requests.post(url=url+'/ask',data=data)
+        response = requests.get(url=url+'/ask',data=data)
         return jsonify({
                 'status':'success',
                 'new_answer':response['answer']
