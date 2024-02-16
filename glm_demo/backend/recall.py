@@ -83,5 +83,8 @@ def get_new_dialog():
     glm_dict[user_id][dialog_id] = model
     return jsonify(message=f"New dialog {dialog_id} created."),200
 
+if __name__ == '__main__':
+    app.run(debug=True,host='0.0.0.0')
+
 
 
