@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatGPT-4 Interface Simulation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .chat-container { border: 1px solid #ccc; padding: 10px; }
+        .message { margin: 10px 0; }
+        .user-message { text-align: right; }
+        .bot-message { text-align: left; }
+        input, button, textarea { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div id="chat-container" class="chat-container"></div>
+    <input type="file" id="pdf-upload" accept=".pdf">
+    <button onclick="uploadPDF()">Upload PDF</button>
+    <textarea id="question" placeholder="Type your question here..."></textarea>
+    <button onclick="sendQuestion()">Send Question</button>
+    <button onclick="createNewDialog()">New Dialog</button>
+
+    <script>
+        let dialogId = 0;
+
+        function uploadPDF() {
+            const input = document.getElementById('pdf-upload');
+            const data = new FormData();
+            data.append('pdf', input.files[0]);
+
+            fetch('/ocr', {
+                method: 'POST',
+                body: data,
+            })
+            .then(response => response.json())
+            .then(data => {
+                displayMessage(data.message, 'bot');
+            });
+        }
+
+        function sendQuestion() {
+            const question = document.getElementById('question').value;
+            fetch('/qa', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ question: question }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                displayMessage(data.answer, 'bot');
+            });
+        }
+
+        function createNewDialog() {
+            dialogId++;
+            fetch(`/gpt${dialogId}`, {
+                method: 'POST'
+            })
+            .then(response => response.json())
+            .then(data => {
+                displayMessage(`Dialog ${dialogId} started.`, 'bot');
+            });
+        }
+
+        function displayMessage(message, sender) {
+            const container = document.getElementById('chat-container');
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message', `${sender}-message`);
+            messageDiv.textContent = message;
+            container.appendChild(messageDiv);
+        }
+    </script>
+</body>
+</html>

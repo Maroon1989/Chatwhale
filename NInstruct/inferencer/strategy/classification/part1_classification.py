@@ -87,7 +87,7 @@ def part1_2_2classification(
 
 
 #十大股东及持股情况查询
-def part1_2_2classification(
+def part1_2_3classification(
     data: Dict[str, Any],
     classification_example: List[str] = [],
     **kwargs) -> List[Any]:
@@ -198,7 +198,7 @@ def part1_4_1classification(
 
 
 #股权变动
-def part1_4_1classification(
+def part1_4_2classification(
     data: Dict[str, Any],
     classification_example: List[str] = [],
     **kwargs) -> List[Any]:
