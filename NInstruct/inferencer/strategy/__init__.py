@@ -11,9 +11,9 @@ from .nl2sql.part3_1nl2sql import part3_1nl2sql
 from .nl2sql.part3_2nl2sql import part3_2nl2sql
 from .nl2sql.part4_nl2sql import *
 from .classification.part1_classification import *
-from .classification.part5_classification import *
+from .classification.part6_classification import *
 from .keywords.part1_keywords import *
-from .keywords.part5_keywords import *
+from .keywords.part6_keywords import *
 
 STRATEGIES = {
     'classification_example': {'func':classification_example,'type':'classification'},
@@ -38,11 +38,11 @@ STRATEGIES = {
     'part4_classification_sub_abroad':{'func':classification_sub_abroad,'type':'classification'},
     'part4_classification_down_financial':{'func':classification_down_financial,'type':'classification'},
     'part4_classification_sub_financial':{'func':classification_sub_financial,'type':'classification'},
-    'part5_classification_shareholders_support':{'func':classification_shareholders_support,'type':'classification'},
-    'part5_classification_evaluate_control_structure':{'func':classification_evaluate_control_structure,'type':'classification'},
-    'part5_classification_down_company_risk_status':{'func':classification_down_company_risk_status,'type':'classification'},
-    'part5_classification_down_company_finance_status':{'func':classification_down_company_finance_status,'type':'classification'},
-    'part5_classification_down_company_industry_potential':{'func':classification_down_company_industry_potential,'type':'classification'},
+    'part6_classification_shareholders_support':{'func':classification_shareholders_support,'type':'classification'},
+    'part6_classification_evaluate_control_structure':{'func':classification_evaluate_control_structure,'type':'classification'},
+    'part6_classification_down_company_risk_status':{'func':classification_down_company_risk_status,'type':'classification'},
+    'part6_classification_down_company_finance_status':{'func':classification_down_company_finance_status,'type':'classification'},
+    'part6_classification_down_company_industry_potential':{'func':classification_down_company_industry_potential,'type':'classification'},
 
     'keywords_example':{'func':keywords_example,'type':'keywords'},
     'keywords_part1_1_1':{'func':keywords_part1_1_1,'type':'keywords'},
@@ -65,11 +65,11 @@ STRATEGIES = {
     'part4_keywords_sub_abroad':{'func':keywords_sub_abroad,'type':'keywords'},
     'part4_keywords_down_financial':{'func':keywords_down_financial,'type':'keywords'},
     'part4_keywords_sub_financial':{'func':keywords_sub_financial,'type':'keywords'},
-    'part5_keywords_shareholders_support':{'func':keywords_shareholders_support,'type':'keywords'},
-    'part5_keywords_evaluate_control_structure':{'func':keywords_evaluate_control_structure,'type':'keywords'},
-    'part5_keywords_down_company_risk_status':{'func':keywords_down_company_risk_status,'type':'keywords'},
-    'part5_keywords_down_company_finance_status':{'func':keywords_down_company_finance_status,'type':'keywords'},
-    'part5_keywords_down_company_industry_potential':{'func':keywords_down_company_industry_potential,'type':'keywords'},
+    'part6_keywords_shareholders_support':{'func':keywords_shareholders_support,'type':'keywords'},
+    'part6_keywords_evaluate_control_structure':{'func':keywords_evaluate_control_structure,'type':'keywords'},
+    'part6_keywords_down_company_risk_status':{'func':keywords_down_company_risk_status,'type':'keywords'},
+    'part6_keywords_down_company_finance_status':{'func':keywords_down_company_finance_status,'type':'keywords'},
+    'part6_keywords_down_company_industry_potential':{'func':keywords_down_company_industry_potential,'type':'keywords'},
 
     'nl2sql_example':{'func':nl2sql_example,'type':'nl2sql'},
     'part3_1nl2sql':{'func':part3_1nl2sql,'type':'nl2sql'},
