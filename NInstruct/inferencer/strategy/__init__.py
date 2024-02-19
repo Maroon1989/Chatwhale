@@ -14,6 +14,8 @@ from .classification.part1_classification import *
 from .classification.part6_classification import *
 from .keywords.part1_keywords import *
 from .keywords.part6_keywords import *
+from .classification.part5_classification import *
+from .keywords.part5_keywords import *
 
 STRATEGIES = {
     'classification_example': {'func':classification_example,'type':'classification'},
@@ -38,6 +40,11 @@ STRATEGIES = {
     'part4_classification_sub_abroad':{'func':classification_sub_abroad,'type':'classification'},
     'part4_classification_down_financial':{'func':classification_down_financial,'type':'classification'},
     'part4_classification_sub_financial':{'func':classification_sub_financial,'type':'classification'},
+    'part5_1_evaluate_structure':{'func':part5_1_evaluate_structure,'type':'classification'},
+    'part5_2_ownership_con':{'func':part5_2_ownership_con,'type':'classification'},
+    'part5_3_com_connection':{'func':part5_3_com_connection,'type':'classification'},
+    'part5_4_ownership_stable':{'func':part5_4_ownership_stable,'type':'classification'},
+    'part5_5_risk':{'func':part5_5_risk,'type':'classification'},
     'part6_classification_shareholders_support':{'func':classification_shareholders_support,'type':'classification'},
     'part6_classification_evaluate_control_structure':{'func':classification_evaluate_control_structure,'type':'classification'},
     'part6_classification_down_company_risk_status':{'func':classification_down_company_risk_status,'type':'classification'},
@@ -65,6 +72,11 @@ STRATEGIES = {
     'part4_keywords_sub_abroad':{'func':keywords_sub_abroad,'type':'keywords'},
     'part4_keywords_down_financial':{'func':keywords_down_financial,'type':'keywords'},
     'part4_keywords_sub_financial':{'func':keywords_sub_financial,'type':'keywords'},
+    'keywords_part5_1':{'func':keywords_part5_1,'type':'keywords'},
+    'keywords_part5_2':{'func':keywords_part5_2,'type':'keywords'},
+    'keywords_part5_3':{'func':keywords_part5_3,'type':'keywords'},
+    'keywords_part5_4':{'func':keywords_part5_4,'type':'keywords'},
+    'keywords_part5_5':{'func':keywords_part5_5,'type':'keywords'},
     'part6_keywords_shareholders_support':{'func':keywords_shareholders_support,'type':'keywords'},
     'part6_keywords_evaluate_control_structure':{'func':keywords_evaluate_control_structure,'type':'keywords'},
     'part6_keywords_down_company_risk_status':{'func':keywords_down_company_risk_status,'type':'keywords'},
