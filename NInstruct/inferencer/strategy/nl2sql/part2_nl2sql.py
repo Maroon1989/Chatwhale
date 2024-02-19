@@ -4,7 +4,7 @@ from typing import List, Any, Dict
 from utils import make_data_dict, ID_COUNTER, LOGGER
 # from configs import IMG_SAVE_PATH
 
-def part3_1nl2sql(
+def nl2sql_shareholder_type(
     data: Dict[str, Any],
     what_are_components_flat_skipped_keys: List[str] = [],
     **kwargs) -> List[Any]:
@@ -19,8 +19,8 @@ def part3_1nl2sql(
             make_data_dict(
                 cur_id=str(ID_COUNTER),
                 cur_conversations=[
-                    f"请根据以下用户输入，输出sql代码。\n用户输入：“公司{data[i]}的向下控股结构是怎样的”",
-                    "根据用户输入问题，编写sql代码如下：\n```sql\n SELECT t.统计截止日期, t.证券代码, b.股票简称, t.`持股比例(%)` FROM (SELECT a.统计截止日期, a.证券代码, a.`持股比例(%)` FROM 十大股东 AS a JOIN 上市公司基本信息年度表 AS b ON (a.统计截止日期=b.统计截止日期 AND (a.股东名称=b.中文全称 OR a.股东名称=b.股票简称) AND (b.股票简称='{data[i]}' OR b.股票代码='{data[i]}' OR b.股票代码='{data[i][0:6]}') AND a.`持股比例(%)`>30)) AS t JOIN 上市公司基本信息年度表 AS b ON (t.统计截止日期=b.统计截止日期 AND t.证券代码=b.股票代码) ORDER BY t.统计截止日期 ASC AND t.`持股比例(%)` DESC;  \n```"
+                    f"请根据以下用户输入，输出sql代码。\n用户输入：“公司{data[i]}的股东类型有哪些，比如个人股东、机构股东等？”",
+                    "根据用户输入问题，编写sql代码如下：\n```sql\n select 股东名称，持股数量 from 十大股东(历史数据)  \n```"
                 ]
             )
         )
