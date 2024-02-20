@@ -6,12 +6,14 @@ from .classification.part2_classification import *
 from .classification.part3_1classification import part3_1classification
 from .classification.part3_2classification import part3_2classification
 from .classification.part4_classification import *
+from .classification.part5_classification import *
 from .classification.part6_classification import *
 from .keywords.part1_keywords import *
 from .keywords.part2_keywords import *
 from .keywords.part3_1keywords import part3_1keywords
 from .keywords.part3_2keywords import part3_2keywords
 from .keywords.part4_keywords import *
+from .keywords.part5_keywords import *
 from .keywords.part6_keywords import *
 from .nl2sql.part1_nl2sql import *
 from .nl2sql.part2_nl2sql import *
@@ -55,6 +57,11 @@ STRATEGIES = {
     'part4_classification_sub_abroad':{'func':classification_sub_abroad,'type':'classification'},
     'part4_classification_down_financial':{'func':classification_down_financial,'type':'classification'},
     'part4_classification_sub_financial':{'func':classification_sub_financial,'type':'classification'},
+    'part5_classification_evaluate_structure':{'func':part5_1_evaluate_structure,'type':'classification'},
+    'part5_classification_ownership_con':{'func':part5_2_ownership_con,'type':'classification'},
+    'part5_classification_com_connection':{'func':part5_3_com_connection,'type':'classification'},
+    'part5_classification_ownership_stable':{'func':part5_4_ownership_stable,'type':'classification'},
+    'part5_classification_risk':{'func':part5_5_risk,'type':'classification'},
     'part6_classification_shareholders_support':{'func':classification_shareholders_support,'type':'classification'},
     'part6_classification_evaluate_control_structure':{'func':classification_evaluate_control_structure,'type':'classification'},
     'part6_classification_down_company_risk_status':{'func':classification_down_company_risk_status,'type':'classification'},
@@ -94,6 +101,11 @@ STRATEGIES = {
     'part4_keywords_sub_abroad':{'func':keywords_sub_abroad,'type':'keywords'},
     'part4_keywords_down_financial':{'func':keywords_down_financial,'type':'keywords'},
     'part4_keywords_sub_financial':{'func':keywords_sub_financial,'type':'keywords'},
+    'part5_1keywords':{'func':keywords_part5_1,'type':'keywords'},
+    'part5_2keywords':{'func':keywords_part5_2,'type':'keywords'},
+    'part5_3keywords':{'func':keywords_part5_3,'type':'keywords'},
+    'part5_4keywords':{'func':keywords_part5_4,'type':'keywords'},
+    'part5_5keywords':{'func':keywords_part5_5,'type':'keywords'},
     'part6_keywords_shareholders_support':{'func':keywords_shareholders_support,'type':'keywords'},
     'part6_keywords_evaluate_control_structure':{'func':keywords_evaluate_control_structure,'type':'keywords'},
     'part6_keywords_down_company_risk_status':{'func':keywords_down_company_risk_status,'type':'keywords'},
