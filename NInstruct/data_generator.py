@@ -8,7 +8,7 @@ stock_list = pd.read_excel(r'D:\sth_funny\citi2024\Chatwhale\NInstruct\data\AB�
 # stock_list = stock_list['证券代码'].unique().tolist()
 path = r'NInstruct\dataset'
 # for i in tqdm(range(len(stock_list['证券代码']))):
-for i in tqdm(range(10)):
+for i in tqdm(range(len(stock_list['证券代码']))):
     data = {}
     data['id'] = i
     data['security_code'] = stock_list['证券代码'][i]
