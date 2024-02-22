@@ -7,6 +7,7 @@ import pymysql
 from Chatwhale.database.Mysql_config import host,user,password,database
 import os
 import pandas as pd
+from sql_correct import *
 connection = pymysql.connect(
     host= host,
     user= user,
@@ -50,10 +51,19 @@ def ask():
             model.unload_model()
             sql_response = model.get_response(nl2_sql_prompt,query_type=2)
             model.unload_model()
-            cursor.execute(sql_response)
-            result = cursor.fetchall()
-            full_prompt = f"{question},其中关键数据为{result}"
-            response = model.get_response(question,query_type=3)
+            answer,ero,sql_cursor = exc_sql(question,sql_response,cursor)
+            # cursor.execute(sql_response)
+            # result = cursor.fetchall()
+            if ero == '':
+                column_names = [column[0] for column in sql_cursor.description]
+                markdown_table = ''
+                for i in column_names:
+                    markdown_table += f"|{i}"
+                markdown_table += '\n'+"| ---- |"*len(column_names)+"\n"
+                for row in answer:
+                    markdown_table+="|"+'|'.join(row[name] for name in column_names)+"|\n"
+                full_prompt = f"{question},其中关键数据为列名:{markdown_table}"
+            response = model.get_response(full_prompt,query_type=3)
             model.unload_model()
         else:
             response = classification

@@ -24,7 +24,7 @@ def exc_sql(ori_question, sql, sql_cursor):
     except Exception as e:
         logger.error('执行SQL[{}]错误! {}'.format(sql.replace('<>', ''), e))
         exec_log = str(e)
-    return answer, exec_log
+    return answer, exec_log,sql_cursor
 
 
 
