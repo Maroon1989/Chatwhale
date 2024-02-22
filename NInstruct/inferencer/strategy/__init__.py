@@ -8,6 +8,7 @@ from .classification.part3_2classification import part3_2classification
 from .classification.part4_classification import *
 from .classification.part5_classification import *
 from .classification.part6_classification import *
+from .classification.oversea_classification import oversea_classification
 from .keywords.part1_keywords import *
 from .keywords.part2_keywords import *
 from .keywords.part3_1keywords import part3_1keywords
@@ -15,11 +16,16 @@ from .keywords.part3_2keywords import part3_2keywords
 from .keywords.part4_keywords import *
 from .keywords.part5_keywords import *
 from .keywords.part6_keywords import *
+from .keywords.oversea_keywords import oversea_keywords
 from .nl2sql.part1_nl2sql import *
 from .nl2sql.part2_nl2sql import *
 from .nl2sql.part3_1nl2sql import part3_1nl2sql
 from .nl2sql.part3_2nl2sql import part3_2nl2sql
+from .nl2sql.oversea_nl2sql import oversea_nl2sql
 from .nl2sql.part4_nl2sql import *
+
+
+
 
 
 STRATEGIES = {
@@ -67,6 +73,7 @@ STRATEGIES = {
     'part6_classification_down_company_risk_status':{'func':classification_down_company_risk_status,'type':'classification'},
     'part6_classification_down_company_finance_status':{'func':classification_down_company_finance_status,'type':'classification'},
     'part6_classification_down_company_industry_potential':{'func':classification_down_company_industry_potential,'type':'classification'},
+    'oversea_classification':{'func':oversea_classification,'type':'classification'},
 
     # 'keywords_example':{'func':keywords_example,'type':'keywords'},
     'part1_1_1keywords':{'func':keywords_part1_1_1,'type':'keywords'},
@@ -111,6 +118,7 @@ STRATEGIES = {
     'part6_keywords_down_company_risk_status':{'func':keywords_down_company_risk_status,'type':'keywords'},
     'part6_keywords_down_company_finance_status':{'func':keywords_down_company_finance_status,'type':'keywords'},
     'part6_keywords_down_company_industry_potential':{'func':keywords_down_company_industry_potential,'type':'keywords'},
+    'oversea_keywords':{'func':oversea_keywords,'type':'keywords'},
 
     # 'nl2sql_example':{'func':nl2sql_example,'type':'nl2sql'},
     'part1_1_1nl2sql':{'func':nl2sql_part1_1_1,'type':'nl2sql'},
@@ -140,5 +148,6 @@ STRATEGIES = {
     'part4_nl2sql_down_abroad':{'func':nl2sql_down_abroad,'type':'nl2sql'},
     'part4_nl2sql_sub_abroad':{'func':nl2sql_sub_abroad,'type':'nl2sql'},
     'part4_nl2sql_down_financial':{'func':nl2sql_down_financial,'type':'nl2sql'},
-    'part4_nl2sql_sub_financial':{'func':nl2sql_sub_financial,'type':'nl2sql'}
+    'part4_nl2sql_sub_financial':{'func':nl2sql_sub_financial,'type':'nl2sql'},
+    'oversea_nl2sql':{'func':oversea_nl2sql,'type':'nl2sql'}
 }
