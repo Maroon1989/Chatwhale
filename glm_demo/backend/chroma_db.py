@@ -5,7 +5,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from reranker import rerank
 tokenizer = AutoTokenizer.from_pretrained(r'D:\sth_funny\citi2024\RAG_glm\hugging-face-model\bge-reranker-base')
 rerank_model = AutoModelForSequenceClassification.from_pretrained(r'D:\sth_funny\citi2024\RAG_glm\hugging-face-model\bge-reranker-base')
-client = chromadb.HttpClient(host='localhost',port=8000)
+client  = chromadb.PersistentClient(path=r"D:\sth_funny\citi2024\chroma_data")
 def get_query(query):
     collection1 = client.get_or_create_collection("first_documents",embedding_function=MyEmbeddingFunction(model_path=r'D:\sth_funny\citi2024\RAG_glm\hugging-face-model\gte-small-zh'))
     collection2 = client.get_or_create_collection("first_documents",embedding_function=MyEmbeddingFunction(model_path=r'D:\sth_funny\citi2024\RAG_glm\hugging-face-model\bge-small-zh-v1.5'))
