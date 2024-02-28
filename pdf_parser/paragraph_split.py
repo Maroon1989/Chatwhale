@@ -30,7 +30,7 @@ class PDFDocumentParser:
             # print(line)
             # match3 = re.match(r'^[1-9][0-9]{0,8}、', line)
             if match1 or match2 :
-                print(1)
+                # print(1)
                 if current_sub_section:
                     document_list.append(self.create_document(text_content=''.join(sub_section_text), chapter=chapter))
                 current_sub_section = line
@@ -58,7 +58,7 @@ class PDFDocumentParser:
                     # match3 = re.match(r'^[一二三四五六七八九十]、', line)
                     # match4 = re.match(r'^[1-9][0-9]{0,8}、', line)
                     if match1 or match2 :
-                        print(line)
+                        # print(line)
                         if current_section:
                             # print(1)
                             section_text = ''.join(section_text)
@@ -75,14 +75,14 @@ class PDFDocumentParser:
         return self.all_chapter_documents
 
 # 使用示例
-parser = PDFDocumentParser(r'G:\zhongyunhua\大学\大三寒假\花旗杯\Chatwhale\pdf_parser\data\宁德时代.pdf')
-# parser = PDFDocumentParser(r'D:\一些比赛\citi2024\Chatwhale\pdf_parser\data\茅台.pdf')
-documents = parser.parse_pdf()
-#
-# print('茅台年报Document实例列表如下\n')
-for doc in documents[:10]:
-    print(doc.metadata)
-    print(doc.page_content)
-    print('-----------------------------')
+# parser = PDFDocumentParser(r'G:\zhongyunhua\大学\大三寒假\花旗杯\Chatwhale\pdf_parser\data\宁德时代.pdf')
+# # parser = PDFDocumentParser(r'D:\一些比赛\citi2024\Chatwhale\pdf_parser\data\茅台.pdf')
+# documents = parser.parse_pdf()
+# #
+# # print('茅台年报Document实例列表如下\n')
+# for doc in documents[:10]:
+#     print(doc.metadata)
+#     print(doc.page_content)
+#     print('-----------------------------')
 
-print(len(documents))
+# print(len(documents))
