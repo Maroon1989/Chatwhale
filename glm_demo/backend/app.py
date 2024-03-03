@@ -82,6 +82,15 @@ def create_new_window(user_id,dialog_id):
         return jsonify(message=f"New dialog {dialog_id} created."),200
     except:
         return jsonify(message=f"New dialog {dialog_id} creation failed."),201
+    
+#对话框删除
+@app.route('/api/glm<string:user_id>/<int:dialog_id>',method=['POST'])
+def delete_window(user_id,dialog_id):
+    try:
+        response = requests.post(url=url+'/delete_dialog',data={'num':dialog_id,'user':user_id})
+        return jsonify(message=f"Dialog {dialog_id} deleted."),200
+    except:
+        return jsonify(message=f"Dialog {dialog_id} deletion failed."),201
 
 #反馈接口
 @app.route('/api/chat/feedback',method=['POST'])

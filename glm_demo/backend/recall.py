@@ -93,6 +93,15 @@ def get_new_dialog():
     glm_dict[user_id][dialog_id] = model
     return jsonify(message=f"New dialog {dialog_id} created."),200
 
+@app.route('/delete_dialog',method=['POST'])
+def delete_dialog():
+    data = request.form
+    dialog_id = data['dialog_id']
+    user_id = data['user_id']
+    glm_dict[user_id][dialog_id].unload_model()
+    del glm_dict[user_id][dialog_id]
+    return jsonify(message=f"Dialog {dialog_id} deleted."),200
+
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0')
 
