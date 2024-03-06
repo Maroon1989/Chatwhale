@@ -8,6 +8,7 @@ from Chatwhale.database.Mysql_config import host,user,password,database
 import os
 import pandas as pd
 from sql_correct import *
+from prompt_utils import sql_prompt,RAG_prompt
 connection = pymysql.connect(
     host= host,
     user= user,
@@ -46,9 +47,10 @@ def ask():
         classification = model.get_response(question,query_type=0)
         if classification!='D' and classification!='E':
             model.unload_model()
-            keywords = model.get_response(question,query_type=1)
-            nl2_sql_prompt = f"{question},其关键词是{keywords}"
-            model.unload_model()
+            # keywords = model.get_response(question,query_type=1)
+            # nl2_sql_prompt = f"{question},其关键词是{keywords}"
+            # model.unload_model()
+            nl2_sql_prompt = sql_prompt+question
             sql_response = model.get_response(nl2_sql_prompt,query_type=2)
             model.unload_model()
             answer,ero,sql_cursor = exc_sql(question,sql_response,cursor)
@@ -75,8 +77,9 @@ def ask():
     else:
         # True表示下一步进行RAG
         if query_type:
-            RAG_prompt = ''''''
-            full_prompt = f"{RAG_prompt} {question}"
+            content = data['text']
+            full_prompt = RAG_prompt.format(content,question)
+            # full_prompt = f"{RAG_prompt} {question}"
             response = model.get_response(full_prompt,query_type=3) 
         else:
             prompt = question
