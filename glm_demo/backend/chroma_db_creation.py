@@ -8,7 +8,7 @@ import sys
 sys.path.append(r"D:\sth_funny\citi2024\Chatwhale")
 from pdf_parser.paragraph_split import PDFDocumentParser
 from pdf_parser.paragraph_split4txt import TXTDocumentParser
-import pdf_parser.file_processor
+# import pdf_parser.file_processor
 tokenizer = AutoTokenizer.from_pretrained(r'D:\sth_funny\citi2024\RAG_glm\hugging-face-model\bge-reranker-base')
 rerank_model = AutoModelForSequenceClassification.from_pretrained(r'D:\sth_funny\citi2024\RAG_glm\hugging-face-model\bge-reranker-base')
 # client = chromadb.HttpClient(host='localhost',port=8000)
